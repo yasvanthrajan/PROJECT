@@ -1,0 +1,415 @@
+***************---------------------------MAIN PAGE ------------------------------------**********************
+<head>
+<title> Top Perfume</title>
+<link rel="icon" href="Top-10-Best-Intense-Perfumes-For-Women-image-1-3192208680.jpg">
+</head>
+<body>
+
+
+<div class="yr">
+<h2 class="four">Perfumy</h2>
+<h2 class="one"><img src="New folder/2048px-Home-icon.svg.png" width="20px">  Home <h1 class="ux">|</h1></h2>
+<h2 class="two"><a class="ox"  href="login.html"><img src="New folder/profile-icon-login-head-icon-vector.jpg" width="20px"> Login</a> <h1 class="ux">|</h1></h2>
+
+<h2 class="three"><a class="ex" href="about.html"><img src="New folder/about-us-22.png" width="20px">About Us</a></h2>
+</div>
+<center>
+ <input placeholder="Search">
+</center>
+<div class="prdt1" >
+    <img src="best_french_perfumes-2527344939.jpg" width="253px " height="151px"
+    >
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptates nisi saepe velit! Vero nisi similique, id debitis dolorem nulla a modi quibusdam 
+        ut harum tempora aperiam ipsum molestias repellendus.</p>
+        <a href="https://amzn.in/d/2EYkVqC">Click To Buy</a>
+</div>
+<div class="prdt2">
+    
+    <img src="wp8289571-2537635935.jpg" width="260px" height="150px">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit distinctio nam perferendis vero ducimus, et maxime fugiat suscipit repellendus numquam laborum pariatur cupiditate repudiandae asperiores velit sint tenetur nemo consequuntur!</p>
+    <a href="https://amzn.in/d/2EYkVqC" >Click To Buy</a>
+</div>
+<div class="prdt3">
+    <img src="photo-1610113909872-c2e4a826f8e1-2544281966.jpg" width="250px" height="150px">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dignissimos ducimus adipisci recusandae accusantium, nihil sed natus dolores, nisi soluta doloribus fugit dicta. Totam accusamus sapiente, odit iste voluptatem omnis.</p>
+    <a href="https://amzn.in/d/2EYkVqC">Click To Buy</a>
+</div>
+<div class="prdt4">
+    <img src="wp7212858-3228573044.jpg" width="250px" height="150px">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus magni minus, obcaecati quam architecto eveniet odio vel quaerat eos dolorum, veritatis ipsam et repellat? Dolorum maiores consequatur vitae nulla.</p>
+    <a href="https://amzn.in/d/2EYkVqC">Click To Buy</a>
+</body>
+
+**********************_________________CSS CODE____________________******************************
+
+<style>
+    .yr{
+       
+        background-color: rgb(255, 108, 132);
+        display: block;
+        border-color:black;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 6px;
+     
+    }
+    .four{
+        
+        color:black;
+        display: inline-block;
+
+        
+    }
+    .one{
+        display: inline;
+        color:black;
+        cursor:pointer;
+        margin-left: 900px;
+        
+
+    }
+    .two{
+        display: inline;
+        
+        
+        color:black;
+        cursor:pointer;   
+    }
+    .three{
+        display: inline;
+        color:black;
+        cursor:pointer;
+    }
+    .one:hover{
+        color:white
+    }
+    .two:hover{
+        color:white
+    }
+    .three:hover{
+        color:white
+    }
+    input{
+        margin-top: 60px;
+        width: 50%;
+        height: 8%;
+        border-color:black;
+        border-width: 5%;
+        border-style: solid;
+        border-radius: 5px;
+    }
+    .input:hover{
+        color: red;
+    }
+    .four:hover{
+         color: white;   
+         cursor: pointer;
+    }
+    .prdt1{
+        display: inline-block;
+        border-color:black ;
+        border-width: 2%;
+        border-style: solid;
+        width: 19%;
+        margin-top: 8%;
+        margin-left: 6%;
+    }
+    .prdt1:hover{
+        background-color:black;
+        cursor: default;
+        color:white;
+    }
+    .prdt2{
+        display: inline-block;
+        width: 260px;
+        border-color: black;
+        border-width: 2%;
+        border-style: solid;
+        margin-left: 2%;
+    }
+    .prdt2:hover{
+         background-color:black;
+         cursor: default;
+       
+        color:white;
+    }
+    
+    .prdt3{
+        display: inline-block;
+        width: 250px;
+        border-color: black;
+        border-width: 2%;
+        border-style: solid;
+        margin-left: 2%;
+    }
+    .prdt3:hover{
+        background-color:black;
+        cursor: default;
+       
+        color: white;
+
+    }
+    .prdt4{
+        display: inline-block;
+        width: 250px;
+        border-color: black;
+        border-width: 2%;
+        border-style: solid;
+        margin-left: 2%;
+
+    }
+    .prdt4:hover{
+          background-color:black;
+          cursor: default;
+        color: white;
+    }
+    .ex{
+        cursor: pointer;
+        color: black;
+        text-decoration: none;
+
+    }
+    .ex:hover{
+        color: white;
+
+    }
+    body{
+        background: rgb(255, 108, 132);
+    }
+    .ux{
+        display: inline;
+       
+    }
+    .ox{
+        text-decoration: none;
+        color: black;
+
+    }
+    .ox:hover{
+      
+        color: white;
+    }
+    a{
+        
+        color:white;
+    }
+    a:hover{
+        color:white;
+        
+    }
+ 
+</style>
+***************---------------------------LOGIN PAGE ------------------------------------**********************
+<head>
+   
+    <title>Login</title>
+</head>
+<body>
+    <div class="bck">
+    <center>
+        <h1 >
+            Welcome To Our Page
+        </h1> 
+    </center>
+<form >
+    <h1 class="o"> Login To Vist The Page</h1>
+        <p> User Name :</p>
+        <input type="text" placeholder="Name" required>
+        <p> Password :</p>
+        <input type="password" placeholder="Password" required>
+        <p> Mail :</p>
+        <input type="email" placeholder="Email" required> 
+        <button type="submit">Login</button>
+        <p>Don't have an account?<a href="register.html"> Sign up</a></p>
+</form>
+    </div>
+    
+</body>
+</html>
+
+**********************_________________CSS CODE____________________******************************
+
+<style>
+    .bck{
+         background-image: url('confirm.jpg' );
+         background-size: cover;
+         background-position: center;
+         height: 100%;
+         justify-content: center;
+         align-items: center;
+ 
+         
+        
+     }
+    
+     input{
+         width: 37%;
+         height: 6%;
+         border: 1px solid;
+         border-radius: 5px;
+         padding: 10px;
+         margin-bottom: 20px;
+        
+     }
+     form{
+         background-color: rgba(255,255,255,0);
+         border-radius: 10px;
+         padding: 20px;
+         box-shadow: 0 0 10px rgba(0,0,0,0);
+         padding-left: 40%;
+         font-size: large;
+         font-family:sans-serif;
+         cursor: default;
+         padding-top: 10%;       
+     }
+     button{
+         width: 30%;
+         height: 45px;
+         display: inline-block;
+         border-color:black;
+         border-width: 5%;
+         border-style: solid;
+         border-radius: 20px;
+         cursor: pointer;
+         color:black;
+         background-color:whitesmoke;
+         transition:background-color 0.3s;
+     }
+     button:hover{
+         color:black;
+         background-color:pink;
+     }
+     p{
+         display: block;
+         margin-bottom: 10px;
+         font-weight: bold;
+     }
+     .i{
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-size: larger;
+         font-weight: 200;
+     }
+     body{
+         background-color: pink;
+     }
+     h1{
+         display: inline;
+         font-size: xx-large;
+         font-weight :500px;;
+         font-family:'Times New Roman', Times, serif;
+         padding-right:7%;
+     }
+         
+     h2{
+         display: inline;
+         padding-right: 90%;
+         
+     }
+     .o{
+         display: inline;
+         padding-right: 50%;
+     }
+     a{  
+         color: black;
+     }
+     a:hover{
+         color:red;
+     }
+ </style>
+
+***************---------------------------ABOUT PAGE ------------------------------------**********************
+<head>
+    <title>About Us</title>
+</head>
+<body>
+   
+    <center class="pic">
+        <h1 class="one">Top Perfumes</h1> 
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas amet, laudantium accusamus libero magnam quasi nam ratione laborum voluptates maxime, sequi nihil officia? Praesentium eos pariatur molestiae aliquam at saepe.orem ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur illo officia soluta culpa quibusdam deserunt magnam minima asperiores, sit, earum autem perferendis. Expedita totam sapiente repellendus tempore facilis ex Lorem ipsum dolor sit amet consectetur adipisicing elit. In inventore esse, corporis magnam quidem hic minima non sed accusantium? Molestias voluptatibus alias delectus nesciunt quis. Natus omnis animi accusamus ipsa.</p>
+        <hr color="black">
+        <h1 class="l"><a class="Home" href="index.html"><img src="New folder/2048px-Home-icon.svg.png" width="20px">Home</a></h1>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/HC0kQKIF9Ss" title="Tom Ford - Fougere D&#39;Argent (Spec Ad)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1><a></a>About US</h1>
+    
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repudiandae voluptatum reiciendis quis molestiae sint incidunt, voluptatem accusantium explicabo nisi doloremque dolor expedita et. Cum blanditiis adipisci illum voluptate exercitationem.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat doloremque minima ratione temporibus aspernatur perferendis iste optio ullam beatae non consequuntur velit autem magnam, quidem voluptatem natus amet animi sunt suscipit inventore magni unde obcaecati et explicabo. Neque vel debitis quidem, libero, eligendi ipsam eaque facere aliquid et saepe quisquam? Facere aspernatur neque provident non consequatur. Maiores maxime consequuntur doloremque facilis recusandae molestias architecto. Ipsa eius laboriosam ex ullam, repellendus sequi dolorem neque beatae. Nam maxime distinctio consequuntur id quod cupiditate reiciendis recusandae illum aut. Excepturi voluptas suscipit repellendus architecto in sint unde consectetur quae, adipisci veritatis deserunt laboriosam, beatae dignissimos, impedit earum tempora! Maxime ducimus ab nisi adipisci molestiae ut numquam vero modi quasi laborum, obcaecati debitis praesentium velit esse possimus quibusdam aut sit amet incidunt in quo excepturi molestias exercitationem. Rerum quisquam, voluptate alias cumque molestiae ducimus non ut dolorum molestias architecto, excepturi quidem quos ea, aspernatur reprehenderit aliquam? Placeat animi velit perspiciatis quae eligendi, ab maxime necessitatibus iste magni a. Ipsam natus ut modi odio exercitationem omnis eum obcaecati maiores deserunt voluptatibus minus eaque, esse cum facilis enim autem, asperiores amet accusamus inventore veniam. Rem suscipit facilis reiciendis distinctio nemo eos officiis aliquam repudiandae hic modi? Quisquam lorem
+
+    </p>
+    <hr>
+    </center>
+    
+
+
+</div>
+<center >
+    <h1 class="pa">
+    Contact US : +91 1400 0444 1400 
+    </h1>
+    <h1 class="pi">|</h1>
+    <h1 class="pu">    
+        Mail:perfume@gamil.com
+    </h1>
+</center>
+</body>
+**********************_________________CSS CODE____________________******************************
+
+<style>
+    body{
+        background-color: rgb(255, 108, 132);
+    }
+    .one{
+        color: black;
+        background-color:  rgb(255, 108, 132);
+        display: inline;
+        
+        
+    }
+    p{
+        color: white;
+    }
+    .one:hover{
+        color: white;
+        cursor: default;
+    }
+    .l{
+        display: inline-block;
+        text-decoration: none;
+        margin-left: 90%;
+        border-color:black ;
+        border-width: 2%;
+        border-style: solid;
+        border-radius: 5%;
+        padding: 0px;
+        
+
+    }
+    .l:hover{
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .home{
+        text-decoration: none;
+        color: black;
+    }
+    .home:hover{
+        color:white;
+    }
+    .pa{
+        display: inline;
+    }
+    .pu{
+        display: inline;
+    }
+    .pa:hover{
+        cursor: default;
+        color: white;
+    }
+    .pu:hover{
+        cursor: default;
+        color: white;
+    }
+    .pi{
+        display: inline;
+    }
+    
+</style>
+
